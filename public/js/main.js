@@ -7,6 +7,7 @@ jQuery(function () {
   inicializacaoContadores()
   inicializaMarcadores()
   $('#botao-reiniciar').click(reiniciaJogo)
+  atualizaPlacar()
 })
 
 function atualizaTamanhoFrase() {
