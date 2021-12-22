@@ -1,6 +1,8 @@
 var tempoInicial = $('#tempo-digitacao').text()
 var campo = $('.campo-digitacao')
 
+//colocar tooltipster, slick e selectize//
+
 jQuery(function () {
   atualizaTamanhoFrase()
   inicializaCronometro()
